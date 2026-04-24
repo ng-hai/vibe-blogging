@@ -1,0 +1,308 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens sourced from blog.pen (Pencil MCP).
+ * Palette: Rosé Pine — three themes (Pine / Moon / Dawn).
+ * Runtime values live on :root + [data-theme="..."]; Tailwind utilities are
+ * generated from @theme below, which references these variables.
+ */
+
+:root,
+[data-theme="pine"] {
+	--rp-base: #191724;
+	--rp-surface: #1f1d2e;
+	--rp-overlay: #26233a;
+	--rp-muted: #6e6a86;
+	--rp-subtle: #908caa;
+	--rp-text: #e0def4;
+	--rp-love: #eb6f92;
+	--rp-gold: #f6c177;
+	--rp-rose: #ebbcba;
+	--rp-pine: #31748f;
+	--rp-foam: #9ccfd8;
+	--rp-iris: #c4a7e7;
+	--rp-highlight-low: #21202e;
+	--rp-highlight-med: #403d52;
+	--rp-highlight-high: #524f67;
+	color-scheme: dark;
+}
+
+[data-theme="moon"] {
+	--rp-base: #232136;
+	--rp-surface: #2a273f;
+	--rp-overlay: #393552;
+	--rp-muted: #6e6a86;
+	--rp-subtle: #908caa;
+	--rp-text: #e0def4;
+	--rp-love: #eb6f92;
+	--rp-gold: #f6c177;
+	--rp-rose: #ea9a97;
+	--rp-pine: #3e8fb0;
+	--rp-foam: #9ccfd8;
+	--rp-iris: #c4a7e7;
+	--rp-highlight-low: #2a283e;
+	--rp-highlight-med: #44415a;
+	--rp-highlight-high: #56526e;
+	color-scheme: dark;
+}
+
+[data-theme="dawn"] {
+	--rp-base: #faf4ed;
+	--rp-surface: #fffaf3;
+	--rp-overlay: #f2e9e1;
+	--rp-muted: #9893a5;
+	--rp-subtle: #797593;
+	--rp-text: #575279;
+	--rp-love: #b4637a;
+	--rp-gold: #ea9d34;
+	--rp-rose: #d7827e;
+	--rp-pine: #286983;
+	--rp-foam: #56949f;
+	--rp-iris: #907aa9;
+	--rp-highlight-low: #f4ede8;
+	--rp-highlight-med: #dfdad9;
+	--rp-highlight-high: #cecacd;
+	color-scheme: light;
+}
+
+@theme inline {
+	/* Colors — Rosé Pine palette, resolving against the active theme */
+	--color-base: var(--rp-base);
+	--color-surface: var(--rp-surface);
+	--color-overlay: var(--rp-overlay);
+	--color-muted: var(--rp-muted);
+	--color-subtle: var(--rp-subtle);
+	--color-text: var(--rp-text);
+	--color-love: var(--rp-love);
+	--color-gold: var(--rp-gold);
+	--color-rose: var(--rp-rose);
+	--color-pine: var(--rp-pine);
+	--color-foam: var(--rp-foam);
+	--color-iris: var(--rp-iris);
+	--color-highlight-low: var(--rp-highlight-low);
+	--color-highlight-med: var(--rp-highlight-med);
+	--color-highlight-high: var(--rp-highlight-high);
+
+	/* Typography — font stacks emitted by Astro's fonts API (self-hosted) */
+	--font-heading: var(--astro-font-heading);
+	--font-body: var(--astro-font-body);
+	--font-code: var(--astro-font-code);
+
+	/* Type scale — named to match Pencil tokens (body-14/16, heading-16..32) */
+	--text-body-14: 0.875rem;
+	--text-body-14--line-height: 1.6;
+	--text-body-16: 1rem;
+	--text-body-16--line-height: 1.7;
+	--text-heading-16: 1rem;
+	--text-heading-16--line-height: 1.3;
+	--text-heading-18: 1.125rem;
+	--text-heading-18--line-height: 1.3;
+	--text-heading-20: 1.25rem;
+	--text-heading-20--line-height: 1.25;
+	--text-heading-24: 1.5rem;
+	--text-heading-24--line-height: 1.2;
+	--text-heading-28: 1.75rem;
+	--text-heading-28--line-height: 1.2;
+	--text-heading-32: 2rem;
+	--text-heading-32--line-height: 1.15;
+}
+
+body {
+	font-family: var(--font-body);
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background-color: var(--color-base);
+	color: var(--color-text);
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	font-size: var(--text-body-16);
+	line-height: 1.75;
+}
+main {
+	width: 720px;
+	max-width: calc(100% - 2em);
+	margin: auto;
+	padding: 3em 1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 0.5rem 0;
+	font-family: var(--font-heading);
+	color: var(--color-text);
+	line-height: 1.2;
+}
+h1 { font-size: var(--text-heading-32); }
+h2 { font-size: var(--text-heading-28); }
+h3 { font-size: var(--text-heading-24); }
+h4 { font-size: var(--text-heading-20); }
+h5 { font-size: var(--text-heading-18); }
+h6 { font-size: var(--text-heading-16); }
+
+/* Article rhythm — large top-margin on headings creates clear section breaks;
+   paragraphs carry bottom-margin; first child resets to prevent double spacing. */
+.prose h2 { margin-top: 2.5em; margin-bottom: 0.6em; }
+.prose h3 { margin-top: 2em;   margin-bottom: 0.5em; }
+.prose h4 { margin-top: 1.5em; margin-bottom: 0.4em; }
+.prose h5,
+.prose h6 { margin-top: 1.25em; margin-bottom: 0.4em; }
+.prose p  { margin: 0 0 1.25em 0; }
+.prose ul,
+.prose ol { margin: 1.25em 0; padding-left: 1.5em; }
+.prose li { margin: 0.35em 0; }
+.prose li > p { margin-bottom: 0.35em; }
+.prose figure,
+.prose .quote-block,
+.prose blockquote,
+.prose pre { margin: 1.75em 0; }
+.prose hr  { margin: 2.5em 0; }
+.prose > :first-child { margin-top: 0; }
+strong,
+b {
+	font-weight: 700;
+}
+a {
+	color: var(--color-foam);
+}
+a:hover {
+	color: var(--color-iris);
+}
+p {
+	margin-bottom: 1em;
+}
+textarea {
+	width: 100%;
+	font-size: var(--text-body-16);
+}
+input {
+	font-size: var(--text-body-16);
+}
+table {
+	width: 100%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+code {
+	font-family: var(--font-code);
+	font-size: 12px;
+	color: var(--color-rose);
+}
+code::before,
+code::after {
+	content: "`";
+	color: var(--color-muted);
+}
+pre {
+	font-family: var(--font-code);
+	font-size: 12px;
+	padding: 1.5em;
+	border-radius: 8px;
+}
+pre:not(.astro-code) {
+	background-color: var(--color-surface);
+}
+pre > code {
+	all: unset;
+}
+pre > code::before,
+pre > code::after {
+	content: none;
+}
+
+/* Shiki multi-theme — Rosé Pine / Moon / Dawn, switched by [data-theme].
+   Uses defaultColor:false from astro.config so each theme's colors live on
+   --shiki-{name} / --shiki-{name}-bg variables emitted per-token. */
+.astro-code {
+	background-color: var(--color-surface) !important;
+}
+.astro-code,
+.astro-code span {
+	color: var(--shiki-pine) !important;
+	font-style: normal !important;
+	font-weight: var(--shiki-pine-font-weight) !important;
+	text-decoration: var(--shiki-pine-text-decoration) !important;
+}
+[data-theme="moon"] .astro-code,
+[data-theme="moon"] .astro-code span {
+	color: var(--shiki-moon) !important;
+	font-weight: var(--shiki-moon-font-weight) !important;
+	text-decoration: var(--shiki-moon-text-decoration) !important;
+}
+[data-theme="dawn"] .astro-code,
+[data-theme="dawn"] .astro-code span {
+	color: var(--shiki-dawn) !important;
+	font-weight: var(--shiki-dawn-font-weight) !important;
+	text-decoration: var(--shiki-dawn-text-decoration) !important;
+}
+/* Article headings carry a muted markdown-style prefix (#, ##, ###),
+   echoing the blog.pen design. Scoped to .prose so site nav/logo are unaffected. */
+.prose h1::before,
+.prose h2::before,
+.prose h3::before {
+	color: var(--color-muted);
+	font-weight: 400;
+	margin-right: 0.35em;
+}
+.prose h1::before { content: "#"; }
+.prose h2::before { content: "##"; }
+.prose h3::before { content: "###"; }
+.prose h4::before { content: "####"; color: var(--color-muted); font-weight: 400; margin-right: 0.35em; }
+
+blockquote {
+	position: relative;
+	border-left: 4px solid var(--color-rose);
+	background-color: var(--color-overlay);
+	padding: 2.25em 1.5em 1em 1.5em;
+	margin: 1.5em 0;
+	border-radius: 0 8px 8px 0;
+	color: var(--color-text);
+}
+blockquote::before {
+	content: "\201D\201D";
+	position: absolute;
+	top: 0.25em;
+	left: 1rem;
+	font-family: var(--font-heading);
+	font-size: 2em;
+	line-height: 1;
+	color: var(--color-rose);
+}
+blockquote p {
+	margin: 0 0 0.75em 0;
+}
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+hr {
+	border: none;
+	border-top: 1px solid var(--color-highlight-med);
+}
+@media (max-width: 720px) {
+	body {
+		font-size: var(--text-body-14);
+	}
+	main {
+		padding: 1em;
+	}
+}
+
+.sr-only {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	white-space: nowrap;
+}
