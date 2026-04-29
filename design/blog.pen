@@ -1,0 +1,4625 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Hm59R",
+      "x": 0,
+      "y": 0,
+      "name": "Typography System",
+      "width": 793,
+      "fill": "$base",
+      "layout": "vertical",
+      "gap": 48,
+      "padding": 64,
+      "children": [
+        {
+          "type": "frame",
+          "id": "HwQgU",
+          "name": "header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "B6Sk2C",
+              "name": "eyebrowHeader",
+              "fill": "$gold",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "DESIGN SYSTEM — VOL. I",
+              "fontFamily": "$font-code",
+              "fontSize": "$caption-12",
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "uhKoR",
+              "name": "titleHeader",
+              "fill": "$text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Typography",
+              "lineHeight": 1,
+              "fontFamily": "$font-heading",
+              "fontSize": "$display-72",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Q0Ldh",
+              "name": "descHeader",
+              "fill": "$subtle",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Reusable type styles for the editorial blog. Each component is bound to typography variables — change a variable, change the whole system.",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": "$body-18",
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "H0fMC4",
+          "name": "divider",
+          "fill": "$content-border",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "LZ75G",
+          "name": "Headings",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "tY1h6",
+              "name": "displayRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "l3kxjJ",
+                  "name": "displayLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xQpF2",
+                      "name": "displayLabelTxt",
+                      "fill": "$gold",
+                      "content": "DISPLAY",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "u3StKT",
+                      "name": "displayLabelMeta",
+                      "fill": "$muted",
+                      "content": "96 / Heading",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "aJfbj",
+                  "name": "type/Display",
+                  "reusable": true,
+                  "fill": "$text",
+                  "content": "Aa",
+                  "lineHeight": 1,
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$display-96",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sqlFV",
+              "name": "h1Row",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nh4Lj",
+                  "name": "h1Label",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rGo5Z",
+                      "name": "h1LabelTxt",
+                      "fill": "$gold",
+                      "content": "H1",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "Yxb0o",
+                      "name": "h1LabelMeta",
+                      "fill": "$muted",
+                      "content": "56 / Heading",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "USFDz",
+                  "name": "type/H1",
+                  "reusable": true,
+                  "fill": "$text",
+                  "content": "Editorial",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$display-56",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HEFd9",
+              "name": "h2Row",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XsAGI",
+                  "name": "h2Label",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "a7Ldw",
+                      "name": "h2LabelTxt",
+                      "fill": "$gold",
+                      "content": "H2",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "HsnoO",
+                      "name": "h2LabelMeta",
+                      "fill": "$muted",
+                      "content": "40 / Heading",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "b0B4Yz",
+                  "name": "type/H2",
+                  "reusable": true,
+                  "fill": "$text",
+                  "content": "Section Heading",
+                  "lineHeight": 1.1,
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$heading-40",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JEkch",
+              "name": "h3Row",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "z4bsWw",
+                  "name": "h3Label",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "h3wgY",
+                      "name": "h3LabelTxt",
+                      "fill": "$gold",
+                      "content": "H3",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "XNpjq",
+                      "name": "h3LabelMeta",
+                      "fill": "$muted",
+                      "content": "28 / Heading",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "WqJvI",
+                  "name": "type/H3",
+                  "reusable": true,
+                  "fill": "$text",
+                  "content": "Subsection",
+                  "lineHeight": 1.2,
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$heading-28",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "c9xBOe",
+              "name": "h4Row",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Sndob",
+                  "name": "h4Label",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "B8YObc",
+                      "name": "h4LabelTxt",
+                      "fill": "$gold",
+                      "content": "H4",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "F5fpY",
+                      "name": "h4LabelMeta",
+                      "fill": "$muted",
+                      "content": "24 / Heading",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "bt1nF",
+                  "name": "type/H4",
+                  "reusable": true,
+                  "fill": "$text",
+                  "content": "Sub-subsection",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$heading-24",
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zck74",
+          "name": "Lead-in",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "O4StX",
+              "name": "eyebrowRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FHVC4",
+                  "name": "eyebrowLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z5noMD",
+                      "name": "ebLabelTxt",
+                      "fill": "$gold",
+                      "content": "EYEBROW",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "SzujS",
+                      "name": "ebLabelMeta",
+                      "fill": "$muted",
+                      "content": "12 / Mono",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "FoLEp",
+                  "name": "type/Eyebrow",
+                  "reusable": true,
+                  "fill": "$gold",
+                  "content": "FILED UNDER ESSAY",
+                  "fontFamily": "$font-code",
+                  "fontSize": "$caption-12",
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "B2qG3",
+              "name": "dropcapRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zGrvb",
+                  "name": "dropcapLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GOKRJ",
+                      "name": "dcLabelTxt",
+                      "fill": "$gold",
+                      "content": "DROPCAP",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "hVb2k",
+                      "name": "dcLabelMeta",
+                      "fill": "$muted",
+                      "content": "96/48 · resp",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "B3oOC",
+                  "name": "type/Dropcap",
+                  "reusable": true,
+                  "fill": "$rose",
+                  "content": "A",
+                  "lineHeight": 0.85,
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$display-96",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "z4lt9",
+              "name": "leadRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RWglE",
+                  "name": "leadLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Hgxix",
+                      "name": "leadLabelTxt",
+                      "fill": "$gold",
+                      "content": "LEAD",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "r1MRTT",
+                      "name": "leadLabelMeta",
+                      "fill": "$muted",
+                      "content": "20 / Body",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "DgZzQ",
+                  "name": "type/Lead",
+                  "reusable": true,
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A leading paragraph that draws the reader gently into the piece — it carries the cadence of the writing.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-20",
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "y0hwSb",
+          "name": "Body",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Z5jwF",
+              "name": "bodyRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gBshb",
+                  "name": "bodyLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "arLO8",
+                      "name": "bodyLabelTxt",
+                      "fill": "$gold",
+                      "content": "BODY",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "tx8Wr",
+                      "name": "bodyLabelMeta",
+                      "fill": "$muted",
+                      "content": "18 / Body",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "iBrRq",
+                  "name": "type/Body",
+                  "reusable": true,
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Body copy intended for long-form reading. Set in Crimson Pro at a comfortable 18px with relaxed line height for sustained focus.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vUxgf",
+              "name": "italicRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Xft19",
+                  "name": "italicLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IgWs2",
+                      "name": "itLabelTxt",
+                      "fill": "$gold",
+                      "content": "BODY ITALIC",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "v4bMeR",
+                      "name": "itLabelMeta",
+                      "fill": "$muted",
+                      "content": "18 / Italic",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "j1gvI",
+                  "name": "type/BodyItalic",
+                  "reusable": true,
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Inline emphasis for titles, foreign phrases, or a writer's gentle aside.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "e6qiN4",
+              "name": "boldRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CcJkS",
+                  "name": "boldLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FRNqX",
+                      "name": "bdLabelTxt",
+                      "fill": "$gold",
+                      "content": "BODY BOLD",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "UUQHD",
+                      "name": "bdLabelMeta",
+                      "fill": "$muted",
+                      "content": "18 / Bold",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "T8HUp",
+                  "name": "type/BodyBold",
+                  "reusable": true,
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Strong inline emphasis — drawing the eye to a key term without breaking flow.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o7ubL",
+              "name": "smallRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CFTEU",
+                  "name": "smallLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eDaot",
+                      "name": "smLabelTxt",
+                      "fill": "$gold",
+                      "content": "SMALL",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "LSR8y",
+                      "name": "smLabelMeta",
+                      "fill": "$muted",
+                      "content": "14 / Body",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Q4uo5",
+                  "name": "type/Small",
+                  "reusable": true,
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Smaller body copy for asides, list items, and tight columns where the regular size feels heavy.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-14",
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "t3AcEv",
+          "name": "Code",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "L7IhHN",
+              "name": "codeRow",
+              "width": "fill_container",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "F6NUi",
+                  "name": "codeLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nsh1L",
+                      "name": "cdLabelTxt",
+                      "fill": "$gold",
+                      "content": "CODE",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ddb9m",
+                      "name": "cdLabelMeta",
+                      "fill": "$muted",
+                      "content": "14 / Mono",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bCprR",
+                  "name": "type/Code",
+                  "reusable": true,
+                  "fill": {
+                    "type": "color",
+                    "color": "#00000000",
+                    "enabled": false
+                  },
+                  "padding": [
+                    2,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AuPY5",
+                      "name": "codeText",
+                      "fill": "$foam",
+                      "content": "const greeting = 'hello'",
+                      "fontFamily": "$font-code",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aCraG",
+              "name": "codeBlockRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RnpWf",
+                  "name": "codeBlockLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sIoyh",
+                      "name": "cbLabelTxt",
+                      "fill": "$gold",
+                      "content": "CODEBLOCK",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "jHVRY",
+                      "name": "cbLabelMeta",
+                      "fill": "$muted",
+                      "content": "14 / Mono",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Y4ASU",
+                  "name": "type/CodeBlock",
+                  "reusable": true,
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$content-border"
+                  },
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XuoOI",
+                      "name": "codeColumn",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "pT4Uk",
+                          "name": "line",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vsDjN",
+                              "fill": "$pine",
+                              "content": "function ",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "PZUwM",
+                              "fill": "$rose",
+                              "content": "greet",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "QWRQ6",
+                              "fill": "$subtle",
+                              "content": "(",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "PSaPW",
+                              "fill": "$text",
+                              "content": "name",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "oqTD8",
+                              "fill": "$subtle",
+                              "content": ") {",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "e3oYCz",
+                          "name": "line",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bun2Q",
+                              "fill": "$pine",
+                              "content": "  return ",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "VCMUb",
+                              "fill": "$gold",
+                              "content": "`Hello, ",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ypt9x",
+                              "fill": "$subtle",
+                              "content": "${",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "AKzgj",
+                              "fill": "$text",
+                              "content": "name",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "bLf1Q",
+                              "fill": "$subtle",
+                              "content": "}",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "V0RI5b",
+                              "fill": "$gold",
+                              "content": "`",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "x9t42R",
+                          "name": "line",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "accrN",
+                              "fill": "$subtle",
+                              "content": "}",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "laXsP",
+                          "name": "line",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "S1B6f",
+                              "fill": "$muted",
+                              "content": " ",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ua5rQ",
+                          "name": "line",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "PxSnR",
+                              "fill": "$rose",
+                              "content": "greet",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "HIWsD",
+                              "fill": "$subtle",
+                              "content": "(",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "M4LKH",
+                              "fill": "$gold",
+                              "content": "'reader'",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OOyTD",
+                              "fill": "$subtle",
+                              "content": ")",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-code",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mZ22T",
+                      "name": "scrollFade",
+                      "width": 60,
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 90,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1f1d2eff",
+                            "position": 0
+                          },
+                          {
+                            "color": "#1f1d2e00",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        0
+                      ],
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "m7JwDN",
+                          "name": "scrollChevron",
+                          "width": 18,
+                          "height": 24,
+                          "iconFontName": "chevron-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "$subtle"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "X6Ey4l",
+          "name": "Quotation",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "mxdrF",
+              "name": "quoteRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZvEq0",
+                  "name": "quoteLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yFk4C",
+                      "name": "quoteLabelTxt",
+                      "fill": "$gold",
+                      "content": "PULL QUOTE",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "H68h79",
+                      "name": "quoteLabelMeta",
+                      "fill": "$muted",
+                      "content": "32 / Italic",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "KWwiW",
+                  "name": "type/PullQuote",
+                  "reusable": true,
+                  "fill": "$rose",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "“Good writing rewards patience — and so does good typography.”",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$pull-quote-32",
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "A7qmYe",
+              "name": "blockquoteRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OSsYe",
+                  "name": "blockquoteLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ULiqa",
+                      "name": "bqLabelTxt",
+                      "fill": "$gold",
+                      "content": "BLOCKQUOTE",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "F6YWtq",
+                      "name": "bqLabelMeta",
+                      "fill": "$muted",
+                      "content": "20 / Italic",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "a29S6G",
+                  "name": "type/Blockquote",
+                  "reusable": true,
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "left": 3
+                    },
+                    "fill": "$rose"
+                  },
+                  "layout": "vertical",
+                  "padding": [
+                    4,
+                    0,
+                    4,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z58Z2",
+                      "name": "quoteText",
+                      "fill": "$subtle",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The form a thing takes is the argument it makes for itself — typography is no exception.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": "$body-20",
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cNehH",
+          "name": "Metadata",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "KGgMB",
+              "name": "captionRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ABT1O",
+                  "name": "captionLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aUvKM",
+                      "name": "captionLabelTxt",
+                      "fill": "$gold",
+                      "content": "CAPTION",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "UwpDK",
+                      "name": "captionLabelMeta",
+                      "fill": "$muted",
+                      "content": "12 / Mono",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "dcVq1",
+                  "name": "type/Caption",
+                  "reusable": true,
+                  "fill": "$subtle",
+                  "content": "FILED UNDER CRAFT  •  APRIL 29, 2026  •  6 MIN READ",
+                  "fontFamily": "$font-code",
+                  "fontSize": "$caption-12",
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VMthF",
+              "name": "bylineRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YqSYY",
+                  "name": "bylineLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ijfme",
+                      "name": "bylineLabelTxt",
+                      "fill": "$gold",
+                      "content": "BYLINE",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "Lfpi2",
+                      "name": "bylineLabelMeta",
+                      "fill": "$muted",
+                      "content": "14 / Italic",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Y2Hct",
+                  "name": "type/Byline",
+                  "reusable": true,
+                  "fill": "$subtle",
+                  "content": "By A. Writer — Senior Correspondent",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-14",
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JLFF7",
+              "name": "footnoteRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tVNuV",
+                  "name": "footnoteLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AHVvU",
+                      "name": "fnLabelTxt",
+                      "fill": "$gold",
+                      "content": "FOOTNOTE",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "RnQ0A",
+                      "name": "fnLabelMeta",
+                      "fill": "$muted",
+                      "content": "14 / Muted",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Mymvh",
+                  "name": "type/Footnote",
+                  "reusable": true,
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "¹ See marginalia from earlier essays — context that earns its place but not the reader's full attention.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-14",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UESZU",
+              "name": "creditRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XoIqC",
+                  "name": "creditLabel",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p2682j",
+                      "name": "crLabelTxt",
+                      "fill": "$gold",
+                      "content": "CREDIT",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "B9XM5C",
+                      "name": "crLabelMeta",
+                      "fill": "$muted",
+                      "content": "11 / Italic",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "PX6aL",
+                  "name": "type/Credit",
+                  "reusable": true,
+                  "fill": "$subtle",
+                  "content": "Photograph by J. Lens — courtesy of the archive",
+                  "fontFamily": "$font-body",
+                  "fontSize": "$caption-11",
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aqlGE",
+          "name": "Link Specimens",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "v1pV4w",
+              "name": "linkHead",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wn9Nf",
+                  "name": "linkHeadTitle",
+                  "fill": "$text",
+                  "content": "Links",
+                  "fontFamily": "$font-heading",
+                  "fontSize": "$heading-32",
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "GrZwx",
+                  "name": "linkHeadDesc",
+                  "fill": "$subtle",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Inline link states. Underline color tracks text color at every state. Thickness and offset stay constant; opacity differentiates default and hover.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-16",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "l0inD",
+              "name": "defaultRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "z6071",
+                  "name": "defaultLbl",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z6dN5n",
+                      "name": "defaultLblTxt",
+                      "fill": "$gold",
+                      "content": "DEFAULT",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "yZ5Wn",
+                      "name": "defaultLblMeta",
+                      "fill": "$muted",
+                      "content": "underline 50%",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bila3",
+                  "name": "link/Default",
+                  "reusable": true,
+                  "layout": "vertical",
+                  "gap": "$link-underline-offset",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gyJco",
+                      "name": "linkDefaultTxt",
+                      "fill": "$link-default",
+                      "content": "Read the dispatches",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$body-18",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "q38t0Z",
+                      "name": "linkDefaultLine",
+                      "opacity": 0.5,
+                      "fill": "$link-default",
+                      "width": "fill_container",
+                      "height": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j6DZd",
+              "name": "hoverRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kVbQ6",
+                  "name": "hoverLbl",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tFPy8",
+                      "name": "hoverLblTxt",
+                      "fill": "$gold",
+                      "content": "HOVER",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "SKYul",
+                      "name": "hoverLblMeta",
+                      "fill": "$muted",
+                      "content": "underline 100%",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "K4n61",
+                  "name": "link/Hover",
+                  "reusable": true,
+                  "layout": "vertical",
+                  "gap": "$link-underline-offset",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fQDT3",
+                      "name": "linkHoverTxt",
+                      "fill": "$link-hover",
+                      "content": "Read the dispatches",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$body-18",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "MJc70",
+                      "name": "linkHoverLine",
+                      "fill": "$link-hover",
+                      "width": "fill_container",
+                      "height": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "b4T3C2",
+              "name": "activeRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "J3jEp1",
+                  "name": "activeLbl",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "o4xtz",
+                      "name": "activeLblTxt",
+                      "fill": "$gold",
+                      "content": "ACTIVE",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "PQ736",
+                      "name": "activeLblMeta",
+                      "fill": "$muted",
+                      "content": "on press",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ssLkm",
+                  "name": "link/Active",
+                  "reusable": true,
+                  "layout": "vertical",
+                  "gap": "$link-underline-offset",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uy1kP",
+                      "name": "linkActiveTxt",
+                      "fill": "$link-active",
+                      "content": "Read the dispatches",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$body-18",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "R65Dz",
+                      "name": "linkActiveLine",
+                      "fill": "$link-active",
+                      "width": "fill_container",
+                      "height": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z0kZvb",
+              "name": "visitedRow",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZyIbU",
+                  "name": "visitedLbl",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SegW4",
+                      "name": "visitedLblTxt",
+                      "fill": "$gold",
+                      "content": "VISITED",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "WTDBK",
+                      "name": "visitedLblMeta",
+                      "fill": "$muted",
+                      "content": "after read",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "K1kdp",
+                  "name": "link/Visited",
+                  "reusable": true,
+                  "layout": "vertical",
+                  "gap": "$link-underline-offset",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TeX1i",
+                      "name": "linkVisitedTxt",
+                      "fill": "$link-visited",
+                      "content": "Read the dispatches",
+                      "fontFamily": "$font-body",
+                      "fontSize": "$body-18",
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "EeLxP",
+                      "name": "linkVisitedLine",
+                      "fill": "$link-visited",
+                      "width": "fill_container",
+                      "height": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bVf67",
+              "name": "contextRow",
+              "width": "fill_container",
+              "gap": 32,
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "p75iX",
+                  "name": "contextLbl",
+                  "width": 120,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vHrBi",
+                      "name": "contextLblTxt",
+                      "fill": "$gold",
+                      "content": "IN CONTEXT",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "QsEpM",
+                      "name": "contextLblMeta",
+                      "fill": "$muted",
+                      "content": "reading flow",
+                      "fontFamily": "$font-code",
+                      "fontSize": "$caption-11",
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sb9g1",
+                  "name": "contextBody",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QGpKF",
+                      "name": "ctxLine1",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tr0o6",
+                          "name": "ctxLine1pre",
+                          "fill": "$text",
+                          "content": "Begin with",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$body-18",
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "id": "YgMQY",
+                          "type": "ref",
+                          "ref": "bila3",
+                          "name": "ctxLine1link"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VKbVb",
+                          "name": "ctxLine1post",
+                          "fill": "$text",
+                          "content": "— the unread state.",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$body-18",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MG40D",
+                      "name": "ctxLine2",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "f7Xxug",
+                          "name": "ctxLine2pre",
+                          "fill": "$text",
+                          "content": "On hover it firms to",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$body-18",
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "id": "WDqpU",
+                          "type": "ref",
+                          "ref": "K4n61",
+                          "name": "ctxLine2link"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nmM5e",
+                          "name": "ctxLine2post",
+                          "fill": "$text",
+                          "content": "— same color, full underline.",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$body-18",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Tam5y",
+                      "name": "ctxLine3",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hEdaH",
+                          "name": "ctxLine3pre",
+                          "fill": "$text",
+                          "content": "On press it briefly flashes",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$body-18",
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "id": "Hj3ZM",
+                          "type": "ref",
+                          "ref": "ssLkm",
+                          "name": "ctxLine3link"
+                        },
+                        {
+                          "type": "text",
+                          "id": "c2bmy",
+                          "name": "ctxLine3post",
+                          "fill": "$text",
+                          "content": "— the live moment.",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$body-18",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bZkyf",
+                      "name": "ctxLine4",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ma4Z2",
+                          "name": "ctxLine4pre",
+                          "fill": "$text",
+                          "content": "Once read it settles into",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$body-18",
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "id": "A5G1E",
+                          "type": "ref",
+                          "ref": "K1kdp",
+                          "name": "ctxLine4link"
+                        },
+                        {
+                          "type": "text",
+                          "id": "FQS4s",
+                          "name": "ctxLine4post",
+                          "fill": "$text",
+                          "content": "— recognised, no longer urgent.",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$body-18",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "eiRtU",
+      "x": 873,
+      "y": 0,
+      "name": "Example — Body + Code",
+      "width": 720,
+      "fill": "$base",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 64,
+      "children": [
+        {
+          "id": "nCeAY",
+          "type": "ref",
+          "ref": "FoLEp",
+          "name": "exEyebrow",
+          "content": "FILED UNDER CRAFT  •  6 MIN READ"
+        },
+        {
+          "id": "K3novC",
+          "type": "ref",
+          "ref": "b0B4Yz",
+          "name": "exH2",
+          "content": "Working with State in React"
+        },
+        {
+          "type": "frame",
+          "id": "nQyZN",
+          "name": "spacerA",
+          "width": "fill_container",
+          "height": 8
+        },
+        {
+          "type": "frame",
+          "id": "z2AAYy",
+          "name": "exP1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "justifyContent": "end",
+          "children": [
+            {
+              "type": "frame",
+              "id": "p4dHTC",
+              "name": "l1",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VIYuE",
+                  "fill": "$text",
+                  "content": "When you call ",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "ljhTg",
+                  "type": "ref",
+                  "ref": "bCprR",
+                  "name": "r1",
+                  "descendants": {
+                    "AuPY5": {
+                      "content": "useState()"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "MnIXK",
+                  "fill": "$text",
+                  "content": " inside a component, React tracks the value across",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "a92gfo",
+              "name": "l2",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OjDq5",
+                  "fill": "$text",
+                  "content": "renders. The setter — typically named ",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "Ob7LL",
+                  "type": "ref",
+                  "ref": "bCprR",
+                  "name": "r2",
+                  "descendants": {
+                    "AuPY5": {
+                      "content": "setCount"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "l6tHeg",
+                  "fill": "$text",
+                  "content": " or ",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "Z5FSbv",
+                  "type": "ref",
+                  "ref": "bCprR",
+                  "name": "r3",
+                  "descendants": {
+                    "AuPY5": {
+                      "content": "setUser"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "D9xz0M",
+                  "fill": "$text",
+                  "content": " — schedules an update",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XxKjv",
+              "name": "l3",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AqW0M",
+                  "fill": "$text",
+                  "content": "and re-runs the function with the new value. The pattern is small enough to fit on",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IFpGE",
+              "name": "l4",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fnE0H",
+                  "fill": "$text",
+                  "content": "a postcard, yet the discipline it demands runs deep.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ckBiS",
+          "type": "ref",
+          "ref": "WqJvI",
+          "name": "exH3",
+          "content": "A minimal example"
+        },
+        {
+          "type": "frame",
+          "id": "l0cKI",
+          "name": "exCodeBlock",
+          "width": "fill_container",
+          "fill": "$surface",
+          "cornerRadius": 8,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$content-border"
+          },
+          "layout": "vertical",
+          "padding": [
+            16,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "fx4ot",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uLUVV",
+                  "fill": "$pine",
+                  "content": "import ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "rraEY",
+                  "fill": "$subtle",
+                  "content": "{ ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "jb9X0",
+                  "fill": "$text",
+                  "content": "useState",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "i3SiI0",
+                  "fill": "$subtle",
+                  "content": " } ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "BYJjF",
+                  "fill": "$pine",
+                  "content": "from ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "vsHPa",
+                  "fill": "$gold",
+                  "content": "'react'",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xeCLN",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VoF8Y",
+                  "fill": "$muted",
+                  "content": " ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eW3zv",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TfpkL",
+                  "fill": "$pine",
+                  "content": "function ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "q7bWG",
+                  "fill": "$rose",
+                  "content": "Counter",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "t7Cop",
+                  "fill": "$subtle",
+                  "content": "() {",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fFDs2",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nEbza",
+                  "fill": "$text",
+                  "content": "  ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "y1WBC",
+                  "fill": "$pine",
+                  "content": "const ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "BqIK9",
+                  "fill": "$subtle",
+                  "content": "[",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "h1rmUT",
+                  "fill": "$text",
+                  "content": "count",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "FUTt7",
+                  "fill": "$subtle",
+                  "content": ", ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "J1zRPe",
+                  "fill": "$text",
+                  "content": "setCount",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Qaq4X",
+                  "fill": "$subtle",
+                  "content": "] = ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Ooapj",
+                  "fill": "$rose",
+                  "content": "useState",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "z13UkK",
+                  "fill": "$subtle",
+                  "content": "(",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "KhFUh",
+                  "fill": "$iris",
+                  "content": "0",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ke58s",
+                  "fill": "$subtle",
+                  "content": ")",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "g0Pu8p",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "W742Ug",
+                  "fill": "$text",
+                  "content": "  ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "P8e6z8",
+                  "fill": "$pine",
+                  "content": "return ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "f3SP4k",
+                  "fill": "$subtle",
+                  "content": "(",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Hpd2x",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wKapF",
+                  "fill": "$text",
+                  "content": "    ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "CwrOX",
+                  "fill": "$subtle",
+                  "content": "<",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "gVaUo",
+                  "fill": "$rose",
+                  "content": "button",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "mQ3o3",
+                  "fill": "$text",
+                  "content": " ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "SmYpm",
+                  "fill": "$foam",
+                  "content": "onClick",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "b3jLIm",
+                  "fill": "$subtle",
+                  "content": "={",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "P6wHSJ",
+                  "fill": "$subtle",
+                  "content": "() => ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "dJRnc",
+                  "fill": "$rose",
+                  "content": "setCount",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "CFFdk",
+                  "fill": "$subtle",
+                  "content": "(",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "N8Pvyb",
+                  "fill": "$text",
+                  "content": "count",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "vw65M",
+                  "fill": "$subtle",
+                  "content": " + ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "n9sMi",
+                  "fill": "$iris",
+                  "content": "1",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Y8Mps",
+                  "fill": "$subtle",
+                  "content": ")}>",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Qr5SL",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DLKWC",
+                  "fill": "$text",
+                  "content": "      Clicked ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "eIZ46",
+                  "fill": "$subtle",
+                  "content": "{",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "qKm1H",
+                  "fill": "$text",
+                  "content": "count",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "a2BrM",
+                  "fill": "$subtle",
+                  "content": "}",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "M5erGd",
+                  "fill": "$text",
+                  "content": " times",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K3op9",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "U1lmJ",
+                  "fill": "$text",
+                  "content": "    ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "HzRQE",
+                  "fill": "$subtle",
+                  "content": "</",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ie3NQ",
+                  "fill": "$rose",
+                  "content": "button",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "F0tPx",
+                  "fill": "$subtle",
+                  "content": ">",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fOF24",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Qspah",
+                  "fill": "$subtle",
+                  "content": "  )",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zA8VM",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "A80U8M",
+                  "fill": "$subtle",
+                  "content": "}",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xQLWu",
+          "name": "exP2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ynQM8",
+              "name": "m1",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "irinf",
+                  "fill": "$text",
+                  "content": "Notice that ",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "cLczC",
+                  "type": "ref",
+                  "ref": "bCprR",
+                  "name": "r4",
+                  "descendants": {
+                    "AuPY5": {
+                      "content": "count"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "aRdWh",
+                  "fill": "$text",
+                  "content": " is read directly, while ",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "t2g6D",
+                  "type": "ref",
+                  "ref": "bCprR",
+                  "name": "r5",
+                  "descendants": {
+                    "AuPY5": {
+                      "content": "setCount"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "G0OQi",
+                  "fill": "$text",
+                  "content": " is the only way to change it.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "J3UoN",
+              "name": "m2",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "f7A3t",
+                  "fill": "$text",
+                  "content": "This separation — value here, mutation there — is what keeps the rendering",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YWgLK",
+              "name": "m3",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dG6zr",
+                  "fill": "$text",
+                  "content": "predictable.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fa5Ft",
+          "type": "ref",
+          "ref": "Mymvh",
+          "name": "exFootnote",
+          "content": "¹ The setter is stable across renders, so it's safe to omit from dependency arrays."
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "L4gtZX",
+      "x": 1673,
+      "y": 0,
+      "name": "Example — Body + Code (Mobile)",
+      "theme": {
+        "screen": "mobile"
+      },
+      "width": 390,
+      "fill": "$base",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": [
+        40,
+        24
+      ],
+      "children": [
+        {
+          "id": "whSsy",
+          "type": "ref",
+          "ref": "FoLEp",
+          "name": "exEyebrow",
+          "content": "FILED UNDER CRAFT  •  6 MIN READ"
+        },
+        {
+          "id": "zOnhR",
+          "type": "ref",
+          "ref": "b0B4Yz",
+          "name": "exH2",
+          "content": "Working with State in React"
+        },
+        {
+          "type": "frame",
+          "id": "BsPNc",
+          "name": "spacerA",
+          "width": "fill_container",
+          "height": 8
+        },
+        {
+          "type": "frame",
+          "id": "ZUrMG",
+          "name": "exP1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "justifyContent": "end",
+          "children": [
+            {
+              "type": "frame",
+              "id": "gEXL1",
+              "name": "a1",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "A94p1",
+                  "fill": "$text",
+                  "content": "When you call ",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "lz6K7",
+                  "type": "ref",
+                  "ref": "bCprR",
+                  "descendants": {
+                    "AuPY5": {
+                      "content": "useState()"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "eAsmN",
+                  "fill": "$text",
+                  "content": " inside a component,",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "X81yE",
+              "fill": "$text",
+              "content": "React tracks the value across renders. The",
+              "lineHeight": 1.65,
+              "fontFamily": "$font-body",
+              "fontSize": "$body-18",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "yObfs",
+              "name": "a3",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Tq7t1",
+                  "fill": "$text",
+                  "content": "setter — typically named ",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "TvceC",
+                  "type": "ref",
+                  "ref": "bCprR",
+                  "descendants": {
+                    "AuPY5": {
+                      "content": "setCount"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "k1v3Lv",
+                  "fill": "$text",
+                  "content": " or",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z2MQQx",
+              "name": "a4",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "eoQj7",
+                  "type": "ref",
+                  "ref": "bCprR",
+                  "descendants": {
+                    "AuPY5": {
+                      "content": "setUser"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "WXNvM",
+                  "fill": "$text",
+                  "content": " — schedules an update and re-runs",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "rQ0O8",
+              "fill": "$text",
+              "content": "the function with the new value. The pattern",
+              "lineHeight": 1.65,
+              "fontFamily": "$font-body",
+              "fontSize": "$body-18",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "OKH8V",
+              "fill": "$text",
+              "content": "is small enough to fit on a postcard, yet the",
+              "lineHeight": 1.65,
+              "fontFamily": "$font-body",
+              "fontSize": "$body-18",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ajcIN",
+              "fill": "$text",
+              "content": "discipline it demands runs deep.",
+              "lineHeight": 1.65,
+              "fontFamily": "$font-body",
+              "fontSize": "$body-18",
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "id": "Pbq5H",
+          "type": "ref",
+          "ref": "WqJvI",
+          "name": "exH3",
+          "content": "A minimal example"
+        },
+        {
+          "type": "frame",
+          "id": "vu25U",
+          "name": "exCodeBlock",
+          "clip": true,
+          "width": "fill_container",
+          "fill": "$surface",
+          "cornerRadius": 8,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$content-border"
+          },
+          "layout": "vertical",
+          "padding": [
+            16,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "v1RdUw",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "H2NSYh",
+                  "fill": "$pine",
+                  "content": "import ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "CgTMb",
+                  "fill": "$subtle",
+                  "content": "{ ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Ipj0b",
+                  "fill": "$text",
+                  "content": "useState",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ihKQz",
+                  "fill": "$subtle",
+                  "content": " } ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "hNL4y",
+                  "fill": "$pine",
+                  "content": "from ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "aixpt",
+                  "fill": "$gold",
+                  "content": "'react'",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OW1zW",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lspxB",
+                  "fill": "$muted",
+                  "content": " ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RlQxu",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "x72ex1",
+                  "fill": "$pine",
+                  "content": "function ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "npVoz",
+                  "fill": "$rose",
+                  "content": "Counter",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "rGXDZ",
+                  "fill": "$subtle",
+                  "content": "() {",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ODTpc",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dlDEn",
+                  "fill": "$text",
+                  "content": "  ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Br2Wc",
+                  "fill": "$pine",
+                  "content": "const ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "z7Zw5n",
+                  "fill": "$subtle",
+                  "content": "[",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "R4dY5E",
+                  "fill": "$text",
+                  "content": "count",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "l8eE1",
+                  "fill": "$subtle",
+                  "content": ", ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "fgvDx",
+                  "fill": "$text",
+                  "content": "setCount",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "qGxbe",
+                  "fill": "$subtle",
+                  "content": "] = ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "nwKIH",
+                  "fill": "$rose",
+                  "content": "useState",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tSflf",
+                  "fill": "$subtle",
+                  "content": "(",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "uHGOF",
+                  "fill": "$iris",
+                  "content": "0",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "fBlhM",
+                  "fill": "$subtle",
+                  "content": ")",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I9HM7Y",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "b1HKZ7",
+                  "fill": "$text",
+                  "content": "  ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wgS2p",
+                  "fill": "$pine",
+                  "content": "return ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "bfDK2",
+                  "fill": "$subtle",
+                  "content": "(",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "S8S9C",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nRlqd",
+                  "fill": "$text",
+                  "content": "    ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tAwoy",
+                  "fill": "$subtle",
+                  "content": "<",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "fAZGJ",
+                  "fill": "$rose",
+                  "content": "button",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "NTypg",
+                  "fill": "$text",
+                  "content": " ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "x7zUy",
+                  "fill": "$foam",
+                  "content": "onClick",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "YWK3J",
+                  "fill": "$subtle",
+                  "content": "={",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "L7DZuT",
+                  "fill": "$subtle",
+                  "content": "() => ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "W2E0iU",
+                  "fill": "$rose",
+                  "content": "setCount",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "R0m1IW",
+                  "fill": "$subtle",
+                  "content": "(",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Vohfp",
+                  "fill": "$text",
+                  "content": "count",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "d13Y7",
+                  "fill": "$subtle",
+                  "content": " + ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "a7qDH",
+                  "fill": "$iris",
+                  "content": "1",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "OMMU2",
+                  "fill": "$subtle",
+                  "content": ")}>",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uvLRC",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "N9pwKL",
+                  "fill": "$text",
+                  "content": "      Clicked ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "E7liF",
+                  "fill": "$subtle",
+                  "content": "{",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "fpAZT",
+                  "fill": "$text",
+                  "content": "count",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "PsE7X",
+                  "fill": "$subtle",
+                  "content": "}",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "c3s77",
+                  "fill": "$text",
+                  "content": " times",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VBrCA",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "N1BDJZ",
+                  "fill": "$text",
+                  "content": "    ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "jT8pE",
+                  "fill": "$subtle",
+                  "content": "</",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ZRZ5b",
+                  "fill": "$rose",
+                  "content": "button",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "HH4zr",
+                  "fill": "$subtle",
+                  "content": ">",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R7mpa",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oTxtR",
+                  "fill": "$subtle",
+                  "content": "  )",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YfW0w",
+              "name": "line",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dsym4",
+                  "fill": "$subtle",
+                  "content": "}",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-code",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "f7cjC",
+              "layoutPosition": "absolute",
+              "x": 282,
+              "y": 0,
+              "name": "scrollFade",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#1f1d2eff",
+                    "position": 0
+                  },
+                  {
+                    "color": "#1f1d2e00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 60,
+              "height": 242
+            },
+            {
+              "type": "icon_font",
+              "id": "fWp2Z",
+              "layoutPosition": "absolute",
+              "x": 316,
+              "y": 108,
+              "name": "scrollChevron",
+              "width": 18,
+              "height": 24,
+              "iconFontName": "chevron-right",
+              "iconFontFamily": "lucide",
+              "fill": "$subtle"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "V09g0",
+          "name": "exP2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "isBSq",
+              "name": "b1",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FeFas",
+                  "fill": "$text",
+                  "content": "Notice that ",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "DngSS",
+                  "type": "ref",
+                  "ref": "bCprR",
+                  "descendants": {
+                    "AuPY5": {
+                      "content": "count"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "hjdBl",
+                  "fill": "$text",
+                  "content": " is read directly, while",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "O5yl2",
+              "name": "b2",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "o2kkH",
+                  "type": "ref",
+                  "ref": "bCprR",
+                  "descendants": {
+                    "AuPY5": {
+                      "content": "setCount"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "oV6Fe",
+                  "fill": "$text",
+                  "content": " is the only way to change it.",
+                  "lineHeight": 1.65,
+                  "fontFamily": "$font-body",
+                  "fontSize": "$body-18",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "P6PYa",
+              "fill": "$text",
+              "content": "This separation — value here, mutation",
+              "lineHeight": 1.65,
+              "fontFamily": "$font-body",
+              "fontSize": "$body-18",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "IpXET",
+              "fill": "$text",
+              "content": "there — is what keeps the rendering",
+              "lineHeight": 1.65,
+              "fontFamily": "$font-body",
+              "fontSize": "$body-18",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "adHc3",
+              "fill": "$text",
+              "content": "predictable.",
+              "lineHeight": 1.65,
+              "fontFamily": "$font-body",
+              "fontSize": "$body-18",
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "id": "EUlgB",
+          "type": "ref",
+          "ref": "Mymvh",
+          "name": "exFootnote",
+          "content": "¹ The setter is stable across renders, so it's safe to omit from dependency arrays."
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "color": [
+      "Rosé Pine",
+      "Rosé Pine Moon",
+      "Rosé Pine Dawn"
+    ],
+    "typography": [
+      "Default"
+    ],
+    "screen": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "variables": {
+    "base": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#191724",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#232136",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#faf4ed",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "body-14": {
+      "type": "number",
+      "value": [
+        {
+          "value": 14,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "body-16": {
+      "type": "number",
+      "value": [
+        {
+          "value": 16,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "foam": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#9ccfd8",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#9ccfd8",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#56949f",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "font-body": {
+      "type": "string",
+      "value": [
+        {
+          "value": "Crimson Pro",
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "font-code": {
+      "type": "string",
+      "value": [
+        {
+          "value": "Cascadia Code",
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "font-heading": {
+      "type": "string",
+      "value": [
+        {
+          "value": "Grenze Gotisch",
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "gold": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#f6c177",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#f6c177",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#ea9d34",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "heading-16": {
+      "type": "number",
+      "value": [
+        {
+          "value": 16,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "heading-18": {
+      "type": "number",
+      "value": [
+        {
+          "value": 18,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "heading-20": {
+      "type": "number",
+      "value": [
+        {
+          "value": 20,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "heading-24": {
+      "type": "number",
+      "value": [
+        {
+          "value": 24,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "heading-28": {
+      "type": "number",
+      "value": [
+        {
+          "value": 28,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "heading-32": {
+      "type": "number",
+      "value": [
+        {
+          "value": 32,
+          "theme": {
+            "screen": "desktop"
+          }
+        },
+        {
+          "value": 24,
+          "theme": {
+            "screen": "mobile"
+          }
+        }
+      ]
+    },
+    "highlightHigh": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#524f67",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#56526e",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#cecacd",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "highlightLow": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#21202e",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#2a283e",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#f4ede8",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "highlightMed": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#403d52",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#44415a",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#dfdad9",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "iris": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#c4a7e7",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#c4a7e7",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#907aa9",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "love": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#eb6f92",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#eb6f92",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#b4637a",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#6e6a86",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#6e6a86",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#9893a5",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "overlay": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#26233a",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#393552",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#f2e9e1",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "pine": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#31748f",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#3e8fb0",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#286983",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "rose": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#ebbcba",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#ea9a97",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#d7827e",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "subtle": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#908caa",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#908caa",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#797593",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "surface": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1f1d2e",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#2a273f",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#fffaf3",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "text": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#e0def4",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#e0def4",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#575279",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "content-border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#403d5280",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#44415a80",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#dfdad980",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "body-18": {
+      "type": "number",
+      "value": [
+        {
+          "value": 18,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "body-20": {
+      "type": "number",
+      "value": [
+        {
+          "value": 20,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "caption-11": {
+      "type": "number",
+      "value": [
+        {
+          "value": 11,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "caption-12": {
+      "type": "number",
+      "value": [
+        {
+          "value": 12,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "display-56": {
+      "type": "number",
+      "value": [
+        {
+          "value": 56,
+          "theme": {
+            "screen": "desktop"
+          }
+        },
+        {
+          "value": 36,
+          "theme": {
+            "screen": "mobile"
+          }
+        }
+      ]
+    },
+    "display-72": {
+      "type": "number",
+      "value": [
+        {
+          "value": 72,
+          "theme": {
+            "screen": "desktop"
+          }
+        },
+        {
+          "value": 40,
+          "theme": {
+            "screen": "mobile"
+          }
+        }
+      ]
+    },
+    "display-96": {
+      "type": "number",
+      "value": [
+        {
+          "value": 96,
+          "theme": {
+            "screen": "desktop"
+          }
+        },
+        {
+          "value": 48,
+          "theme": {
+            "screen": "mobile"
+          }
+        }
+      ]
+    },
+    "font-serif-italic": {
+      "type": "string",
+      "value": [
+        {
+          "value": "Crimson Pro",
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "heading-40": {
+      "type": "number",
+      "value": [
+        {
+          "value": 40,
+          "theme": {
+            "screen": "desktop"
+          }
+        },
+        {
+          "value": 28,
+          "theme": {
+            "screen": "mobile"
+          }
+        }
+      ]
+    },
+    "heading-48": {
+      "type": "number",
+      "value": [
+        {
+          "value": 48,
+          "theme": {
+            "screen": "desktop"
+          }
+        },
+        {
+          "value": 32,
+          "theme": {
+            "screen": "mobile"
+          }
+        }
+      ]
+    },
+    "pull-quote-32": {
+      "type": "number",
+      "value": [
+        {
+          "value": 32,
+          "theme": {
+            "screen": "desktop"
+          }
+        },
+        {
+          "value": 22,
+          "theme": {
+            "screen": "mobile"
+          }
+        }
+      ]
+    },
+    "link-active": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#eb6f92",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#eb6f92",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#b4637a",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "link-default": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#9ccfd8",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#9ccfd8",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#286983",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "link-hover": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#9ccfd8",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#9ccfd8",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#286983",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    },
+    "link-underline-offset": {
+      "type": "number",
+      "value": [
+        {
+          "value": 3,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "link-underline-opacity-default": {
+      "type": "number",
+      "value": [
+        {
+          "value": 0.5,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "link-underline-opacity-hover": {
+      "type": "number",
+      "value": [
+        {
+          "value": 1,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "link-underline-thickness": {
+      "type": "number",
+      "value": [
+        {
+          "value": 2,
+          "theme": {
+            "typography": "Default"
+          }
+        }
+      ]
+    },
+    "link-visited": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#c4a7e7",
+          "theme": {
+            "color": "Rosé Pine"
+          }
+        },
+        {
+          "value": "#c4a7e7",
+          "theme": {
+            "color": "Rosé Pine Moon"
+          }
+        },
+        {
+          "value": "#907aa9",
+          "theme": {
+            "color": "Rosé Pine Dawn"
+          }
+        }
+      ]
+    }
+  }
+}
