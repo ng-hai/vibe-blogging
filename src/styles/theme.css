@@ -1,0 +1,147 @@
+/*
+ * Design tokens sourced from design/blog.pen (Pencil MCP).
+ * Palette: Rosé Pine — three themes (Pine / Moon / Dawn).
+ * Runtime values live on :root + [data-theme="..."]; Tailwind utilities are
+ * generated from @theme below, which references these variables.
+ */
+
+:root,
+[data-theme="pine"] {
+  --rp-base: #191724;
+  --rp-surface: #1f1d2e;
+  --rp-overlay: #26233a;
+  --rp-muted: #6e6a86;
+  --rp-subtle: #908caa;
+  --rp-text: #e0def4;
+  --rp-love: #eb6f92;
+  --rp-gold: #f6c177;
+  --rp-rose: #ebbcba;
+  --rp-pine: #31748f;
+  --rp-foam: #9ccfd8;
+  --rp-iris: #c4a7e7;
+  --rp-highlight-low: #21202e;
+  --rp-highlight-med: #403d52;
+  --rp-highlight-high: #524f67;
+  color-scheme: dark;
+}
+
+[data-theme="moon"] {
+  --rp-base: #232136;
+  --rp-surface: #2a273f;
+  --rp-overlay: #393552;
+  --rp-muted: #6e6a86;
+  --rp-subtle: #908caa;
+  --rp-text: #e0def4;
+  --rp-love: #eb6f92;
+  --rp-gold: #f6c177;
+  --rp-rose: #ea9a97;
+  --rp-pine: #3e8fb0;
+  --rp-foam: #9ccfd8;
+  --rp-iris: #c4a7e7;
+  --rp-highlight-low: #2a283e;
+  --rp-highlight-med: #44415a;
+  --rp-highlight-high: #56526e;
+  color-scheme: dark;
+}
+
+[data-theme="dawn"] {
+  --rp-base: #faf4ed;
+  --rp-surface: #fffaf3;
+  --rp-overlay: #f2e9e1;
+  --rp-muted: #9893a5;
+  --rp-subtle: #797593;
+  --rp-text: #575279;
+  --rp-love: #b4637a;
+  --rp-gold: #ea9d34;
+  --rp-rose: #d7827e;
+  --rp-pine: #286983;
+  --rp-foam: #56949f;
+  --rp-iris: #907aa9;
+  --rp-highlight-low: #f4ede8;
+  --rp-highlight-med: #dfdad9;
+  --rp-highlight-high: #cecacd;
+  color-scheme: light;
+}
+
+@theme inline {
+  --\*: initial;
+  --spacing: 1px;
+
+  /* Colors — Rosé Pine palette, resolving against the active theme */
+  --color-base: var(--rp-base);
+  --color-surface: var(--rp-surface);
+  --color-overlay: var(--rp-overlay);
+  --color-muted: var(--rp-muted);
+  --color-subtle: var(--rp-subtle);
+  --color-text: var(--rp-text);
+  --color-love: var(--rp-love);
+  --color-gold: var(--rp-gold);
+  --color-rose: var(--rp-rose);
+  --color-pine: var(--rp-pine);
+  --color-foam: var(--rp-foam);
+  --color-iris: var(--rp-iris);
+  --color-highlight-low: var(--rp-highlight-low);
+  --color-highlight-med: var(--rp-highlight-med);
+  --color-highlight-high: var(--rp-highlight-high);
+
+  /* Typography — font stacks emitted by Astro's fonts API (self-hosted) */
+  --font-heading: var(--astro-font-heading);
+  --font-body: var(--astro-font-body);
+  --font-code: var(--astro-font-code);
+
+  /* Font weights — `--*: initial` wiped v4 defaults, so re-declare what
+   * blog.pen actually uses (`normal` everywhere except `BodyBold`). */
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  /* Type scale — sourced from design/blog.pen `type/*` reusable components (Hm59R) */
+  --text-96: 96px;
+  --text-96--line-height: 1;
+
+  --text-56: 56px;
+  --text-56--line-height: 1.05;
+
+  --text-48: 48px;
+  --text-48--line-height: 1;
+
+  --text-40: 40px;
+  --text-40--line-height: 1.1;
+
+  --text-36: 36px;
+  --text-36--line-height: 1.05;
+
+  --text-32: 32px;
+  --text-32--line-height: 1.3;
+
+  --text-28: 28px;
+  --text-28--line-height: 1.2;
+
+  --text-24: 24px;
+  --text-24--line-height: 1.3;
+
+  --text-22: 22px;
+  --text-22--line-height: 1.3;
+
+  --text-20: 20px;
+  --text-20--line-height: 1.5;
+
+  --text-18: 18px;
+  --text-18--line-height: 1.65;
+
+  --text-14: 14px;
+  --text-14--line-height: 1.55;
+
+  --text-12: 12px;
+  --text-12--letter-spacing: 2px;
+
+  --text-11: 11px;
+}
+
+/*
+ * v4's `rounded-{N}` looks up `--radius-*`, not `--spacing`. Map it onto
+ * the spacing scale so integer radii follow the same N×--spacing rule as
+ * `p-N`, `border-l-N`, `underline-offset-N`, etc.
+ */
+@utility rounded-* {
+  border-radius: --spacing(--value(integer));
+}

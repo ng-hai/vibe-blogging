@@ -1,0 +1,8 @@
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "vibe-blogging",
+  "compatibility_date": "2026-05-02",
+  "assets": {
+    "directory": "./dist"
+  }
+}
